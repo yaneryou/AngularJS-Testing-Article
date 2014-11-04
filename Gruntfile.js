@@ -121,7 +121,7 @@ module.exports = function(grunt) {
           'app/scripts/controllers/**/*.js',
           'app/scripts/filters/**/*.js',
           'app/scripts/config/routes.js',
-          'app/scripts/app.js',
+          'app/scripts/app.js'
         ]
       }
     }

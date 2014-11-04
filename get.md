@@ -25,7 +25,6 @@
 3. e2e test
 
 > 检查服务，服务已经启动（'connect:testserver'），且已经执行结束；测试框架ng-scenario
-> todo: 尝试下[Protractor](https://github.com/angular/protractor),官网推荐
 
 * Test routes
 * Testing Requests / Pages 页面是否加载，页面加载的内容对不对
@@ -34,7 +33,13 @@
 * Testing Templates, Partials & Views 各个url执行之后HTML页面内容是否正确
 * Testing Directives
 
-4. 其他
+> todo: 尝试下[Protractor](https://github.com/angular/protractor),官网推荐
+
+* protractor没有结合grunt任务（想使用任务的话可以尝试grunt-protractor-runner），只能直接npm test执行
+
+*
+
+5. 其他
 
 * animation
 
