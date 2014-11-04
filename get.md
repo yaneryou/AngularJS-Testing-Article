@@ -1,6 +1,4 @@
-# http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html
-
-### [blog]()
+### [blog](http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html)
 
 1. unit test
 
