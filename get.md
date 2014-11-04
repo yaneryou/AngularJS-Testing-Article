@@ -2,7 +2,7 @@
 
 1. unit test
 
-> 检查代码(angular-mocks.js)，代码还未执行
+> 检查代码(angular-mocks.js)，代码还未执行，测试框架mocha
 
 * Testing Controllers 是否为空（To capture any XHR requests in Unit Testing using mocks）
 * Testing Services / Factories 是否为空，基本功能（Factories）对不对
@@ -11,7 +11,7 @@
 
 2. midway test
 
-> 检查代码和服务,服务已经启动，但是需要自己执行具体操作看看结果如何
+> 检查代码和服务,服务已经启动（'connect:testserver'），但是需要自己执行具体操作看看结果如何；测试框架mocha
 
 * Test modules 检查最顶层的module是否存在，此时代码已经执行了，所以放在midway
 * Test routes js动态改变route，得到的页面url是否正确
@@ -24,7 +24,8 @@
 
 3. e2e test
 
-> 检查服务，服务已经启动，且已经执行结束
+> 检查服务，服务已经启动（'connect:testserver'），且已经执行结束；测试框架ng-scenario
+> todo: 尝试下[Protractor](https://github.com/angular/protractor),官网推荐
 
 * Test routes
 * Testing Requests / Pages 页面是否加载，页面加载的内容对不对
@@ -46,5 +47,11 @@
 ### [chai](http://chaijs.com/)
 
 > 断言库（Assertion Library），理解成基本功能库好了（类似utils）
+
+### 配置
+
+* gruntfile 中指定karma的配置（文件）json
+
+* karma的配置中指定使用的测试框架（frameworks），以及测试的文件（files）等
 
 
