@@ -35,9 +35,13 @@
 
 > todo: 尝试下[Protractor](https://github.com/angular/protractor),官网推荐
 
-* protractor没有结合grunt任务（想使用任务的话可以尝试grunt-protractor-runner），只能直接npm test执行
+* protractor没有结合grunt任务（想使用任务的话可以尝试grunt-protractor-runner），不能grunt启动
 
-*
+* [protractor api](http://angular.github.io/protractor/#/api),[简单举例](https://github.com/angular/angular-seed/blob/master/e2e-tests/scenarios.js)
+
+* [使用方法](https://github.com/angular/protractor/blob/master/docs/tutorial.md),注意要先启动应用（grunt serve），启动webdriver（webdriver-manager start）,把应用的地址写到配置js的baseUrl，然后启动测试(protractor 'path to conf.js')才有效
+
+
 
 5. 其他
 
