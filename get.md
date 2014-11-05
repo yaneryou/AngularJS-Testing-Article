@@ -33,7 +33,7 @@
 * Testing Templates, Partials & Views 各个url执行之后HTML页面内容是否正确
 * Testing Directives
 
-> todo: 尝试下[Protractor](https://github.com/angular/protractor),官网推荐
+> 自测[Protractor](https://github.com/angular/protractor),官网推荐
 
 * protractor没有结合grunt任务（想使用任务的话可以尝试grunt-protractor-runner），不能grunt启动
 
